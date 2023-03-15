@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="JSOy{o[Tqau7,@$CnPtn">burgario</variable><variable type="KIND_SpriteKind" id="KP(-zbqT]VwtXz+iv5U_">Player</variable><variable type="KIND_SpriteKind" id="{=exnDi;?AnsQ#Z|;57;">Projectile</variable><variable type="KIND_SpriteKind" id="-n]@kO.JS5N,n5xZR|E[">Food</variable><variable type="KIND_SpriteKind" id="AT1iYkhzL?DCbEE1-l%[">Enemy</variable></variables><block type="pxt-on-start" id="*CAk6B^1Hz)vvf(^sYC+" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="G=20{_1qQQfg(cTA_LY0"><value name="img"><shadow type="background_image_picker" id="d2!6ikfILBW$:L%bw8X["><field name="img">assets.image`background`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.~tCkp}guiNO?uzgacRl("}}</data></shadow></value><next><block type="tilemap_editor" id="{MVI)L=)S5hyV}.7P5z("><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data><next><block type="variables_set" id="VEGDYeN7zgA^RvtEAE}S"><field name="VAR" id="JSOy{o[Tqau7,@$CnPtn">burgario</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="jO21J`0.^Et,Tq0d4?[;"><value name="img"><shadow type="screen_image_picker" id="~|#uAc]+;@Dnv1.O*m-("><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"~|#uAc]+;@Dnv1.O*m-("}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=".P!i`N.Ti8K~uC3[DA;_"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="camerafollow" id="N-tpXpS~N6rbku+f.;_i"><value name="sprite"><block type="variables_get" id=")R{r$?%lk@a;fmZR@Eur"><field name="VAR" id="JSOy{o[Tqau7,@$CnPtn">burgario</field></block></value></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="pJ0Kb;p;1$I;RiMKQKLs" x="340" y="320"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
